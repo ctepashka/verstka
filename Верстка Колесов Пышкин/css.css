@@ -1,0 +1,135 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top{
+    display: flex;
+}
+
+.Logo{
+    margin-left: 900px;
+}
+
+header{
+    width: 1850px;
+}
+
+.otstup{
+    margin-left: 950px;
+}
+
+ul{
+    text-align: center;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 25px;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav{
+    border-top: 1px solid black;
+    margin: 20px;
+}
+
+.product img{
+    width: 142px;
+    height: 189px;
+}
+
+.dev{
+    width: 97%;
+    margin-left: 24px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.nov{
+    text-align: center;
+}
+
+.r{
+    display: flex;
+    justify-content: space-between;
+    width: 1700px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.product{
+    width: 200px;
+    text-align: center;
+}
+
+.product p{
+    font-weight: 500;
+}
+
+.product p span{
+    font-weight: 800;
+}
+
+.company{
+    width: 1700px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.company p{
+    font-weight: 500;
+}
+
+.company p:nth-child(2){
+    margin-top: 25px;
+}
+
+form{
+    width: 750px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+form input{
+    width: 500px;
+    height: 20px;
+    border-radius: 8px;
+    margin-right: 50px;
+}
+
+form p{
+    text-align: center;
+    font-size: 15pt;
+}
+
+form textarea{
+    width: 620px;
+}
+
+.buttons{
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    background-color: #fff;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 9px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+footer{
+    border-top: 1px solid black;
+    text-align: center;
+    font-weight: 500;
+}
